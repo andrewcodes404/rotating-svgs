@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  background-color: #F1C94F; }
+
+#content-cont {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0; }
+
+#logo-container {
+  text-align: center;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.7); }
+  @media (min-width: 768px) {
+    #logo-container {
+      font-size: 8rem; } }
+
+@media (min-width: 599px) {
+  #shapes-mobile-container {
+    display: none; } }
+
+#shapes-web-med-container {
+  display: none;
+  margin-top: 0px;
+  height: 100vh; }
+  @media (min-width: 600px) {
+    #shapes-web-med-container {
+      display: block; } }
+  @media (min-width: 1100px) {
+    #shapes-web-med-container {
+      display: none; } }
+
+#shapes-web-lrg-container {
+  display: none; }
+  @media (min-width: 1100px) {
+    #shapes-web-lrg-container {
+      display: block; } }
+
+@keyframes spin-anti-clockwise {
+  100% {
+    transform: rotate(-360deg); } }
+@keyframes spin-clockwise {
+  100% {
+    transform: rotate(360deg); } }
+.cls-1, .cls-2 {
+  fill: none;
+  stroke: #f2f1f1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: .6%;
+  opacity: 0.5; }
+
+#zig-zag-sm {
+  transform-origin: 350% 10%;
+  animation: spin-clockwise 30s linear infinite; }
+
+#question-shape-sm {
+  transform-origin: 10% -200%;
+  animation: spin-clockwise 25s linear infinite; }
+
+#circle-lrg-sm {
+  transform-origin: 0% -120%;
+  animation: spin-anti-clockwise 30s linear infinite; }
+
+#circle-med-sm {
+  transform-origin: 120% -820%;
+  animation: spin-anti-clockwise 30s linear infinite; }
+
+#circle-sml-sm {
+  transform-origin: -1050% 650%;
+  animation: spin-clockwise 30s linear infinite; }
+
+#j-shape-sm {
+  transform-origin: -350% 50%;
+  animation: spin-clockwise 30s linear infinite; }
+
+#l-shape-sm {
+  transform-origin: 50% -350%;
+  animation: spin-anti-clockwise 59s linear infinite; }
+
+#straight-line-sm {
+  transform-origin: 150% 50%;
+  animation: spin-anti-clockwise 39s linear infinite; }
+
+#curve-sml-sm {
+  transform-origin: 80% -460%;
+  animation: spin-clockwise 35s linear infinite; }
+
+#curve-lrg-sm {
+  transform-origin: -50% 150%;
+  animation: spin-anti-clockwise 44s linear infinite; }
+
+#curve-small {
+  transform-origin: 550% 50%;
+  animation: spin-anti-clockwise 50s linear infinite; }
+
+#curve-lrg {
+  transform-origin: 90% 190%;
+  animation: spin-clockwise 39s linear infinite; }
+
+#cirlce-small {
+  transform-origin: 600% -600%;
+  animation: spin-anti-clockwise 39s linear infinite; }
+
+#circle-med {
+  transform-origin: 400% -800%;
+  animation: spin-clockwise 44s linear infinite; }
+
+#circle-lrg {
+  transform-origin: -350% 200%;
+  animation: spin-anti-clockwise 39s linear infinite; }
+
+#zig-zag {
+  transform-origin: 200% 200%;
+  animation: spin-clockwise 37s linear infinite; }
+
+#question-shape {
+  transform-origin: -120% -80%;
+  animation: spin-anti-clockwise 36s linear infinite; }
+
+#j-shape {
+  transform-origin: -350% -250%;
+  animation: spin-clockwise 45s linear infinite; }
+
+#l-shape {
+  transform-origin: 250% 50%;
+  animation: spin-anti-clockwise 25s linear infinite; }
+
+#straight-line {
+  transform-origin: 50% 250%;
+  animation: spin-clockwise 44s linear infinite; }
+
+#curve-small-lrg {
+  transform-origin: 550% 50%;
+  animation: spin-anti-clockwise 44s linear infinite; }
+
+#curve-lrg-lrg {
+  transform-origin: 90% 190%;
+  animation: spin-clockwise 39s linear infinite; }
+
+#cirlce-small-lrg {
+  transform-origin: 600% -600%;
+  animation: spin-anti-clockwise 35s linear infinite; }
+
+#circle-med-lrg {
+  transform-origin: 400% -800%;
+  animation: spin-clockwise 40s linear infinite; }
+
+#circle-lrg-lrg {
+  transform-origin: -350% 200%;
+  animation: spin-anti-clockwise 30s linear infinite; }
+
+#zig-zag-lrg {
+  transform-origin: 200% 200%;
+  animation: spin-clockwise 30s linear infinite; }
+
+#question-shape-lrg {
+  transform-origin: -120% -80%;
+  animation: spin-anti-clockwise 30s linear infinite; }
+
+#j-shape-lrg {
+  transform-origin: -350% -250%;
+  animation: spin-clockwise 45s linear infinite; }
+
+#l-shape-lrg {
+  transform-origin: 250% 50%;
+  animation: spin-anti-clockwise 25s linear infinite; }
+
+#straight-line-lrg {
+  transform-origin: 50% 250%;
+  animation: spin-clockwise 40s linear infinite; }
+
+/*# sourceMappingURL=main.css.map */

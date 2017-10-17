@@ -1,0 +1,277 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  background-color: #F1C94F; }
+
+#content-cont {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0; }
+
+#logo-container {
+  text-align: center;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.7); }
+  @media (min-width: 768px) {
+    #logo-container {
+      font-size: 8rem; } }
+
+@media (min-width: 599px) {
+  #shapes-mobile-container {
+    display: none; } }
+
+#shapes-web-med-container {
+  display: none;
+  margin-top: 0px;
+  height: 100vh; }
+  @media (min-width: 600px) {
+    #shapes-web-med-container {
+      display: block; } }
+  @media (min-width: 1100px) {
+    #shapes-web-med-container {
+      display: none; } }
+
+#shapes-web-lrg-container {
+  display: none; }
+  @media (min-width: 1100px) {
+    #shapes-web-lrg-container {
+      display: block; } }
+
+@-webkit-keyframes spin-anti-clockwise {
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg); } }
+
+@keyframes spin-anti-clockwise {
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg); } }
+@-webkit-keyframes spin-clockwise {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+@keyframes spin-clockwise {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+.cls-1, .cls-2 {
+  fill: none;
+  stroke: #f2f1f1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: .6%;
+  opacity: 0.5; }
+
+#zig-zag-sm {
+  -webkit-transform-origin: 350% 10%;
+      -ms-transform-origin: 350% 10%;
+          transform-origin: 350% 10%;
+  -webkit-animation: spin-clockwise 30s linear infinite;
+          animation: spin-clockwise 30s linear infinite; }
+
+#question-shape-sm {
+  -webkit-transform-origin: 10% -200%;
+      -ms-transform-origin: 10% -200%;
+          transform-origin: 10% -200%;
+  -webkit-animation: spin-clockwise 25s linear infinite;
+          animation: spin-clockwise 25s linear infinite; }
+
+#circle-lrg-sm {
+  -webkit-transform-origin: 0% -120%;
+      -ms-transform-origin: 0% -120%;
+          transform-origin: 0% -120%;
+  -webkit-animation: spin-anti-clockwise 30s linear infinite;
+          animation: spin-anti-clockwise 30s linear infinite; }
+
+#circle-med-sm {
+  -webkit-transform-origin: 120% -820%;
+      -ms-transform-origin: 120% -820%;
+          transform-origin: 120% -820%;
+  -webkit-animation: spin-anti-clockwise 30s linear infinite;
+          animation: spin-anti-clockwise 30s linear infinite; }
+
+#circle-sml-sm {
+  -webkit-transform-origin: -1050% 650%;
+      -ms-transform-origin: -1050% 650%;
+          transform-origin: -1050% 650%;
+  -webkit-animation: spin-clockwise 30s linear infinite;
+          animation: spin-clockwise 30s linear infinite; }
+
+#j-shape-sm {
+  -webkit-transform-origin: -350% 50%;
+      -ms-transform-origin: -350% 50%;
+          transform-origin: -350% 50%;
+  -webkit-animation: spin-clockwise 30s linear infinite;
+          animation: spin-clockwise 30s linear infinite; }
+
+#l-shape-sm {
+  -webkit-transform-origin: 50% -350%;
+      -ms-transform-origin: 50% -350%;
+          transform-origin: 50% -350%;
+  -webkit-animation: spin-anti-clockwise 59s linear infinite;
+          animation: spin-anti-clockwise 59s linear infinite; }
+
+#straight-line-sm {
+  -webkit-transform-origin: 150% 50%;
+      -ms-transform-origin: 150% 50%;
+          transform-origin: 150% 50%;
+  -webkit-animation: spin-anti-clockwise 39s linear infinite;
+          animation: spin-anti-clockwise 39s linear infinite; }
+
+#curve-sml-sm {
+  -webkit-transform-origin: 80% -460%;
+      -ms-transform-origin: 80% -460%;
+          transform-origin: 80% -460%;
+  -webkit-animation: spin-clockwise 35s linear infinite;
+          animation: spin-clockwise 35s linear infinite; }
+
+#curve-lrg-sm {
+  -webkit-transform-origin: -50% 150%;
+      -ms-transform-origin: -50% 150%;
+          transform-origin: -50% 150%;
+  -webkit-animation: spin-anti-clockwise 44s linear infinite;
+          animation: spin-anti-clockwise 44s linear infinite; }
+
+#curve-small {
+  -webkit-transform-origin: 550% 50%;
+      -ms-transform-origin: 550% 50%;
+          transform-origin: 550% 50%;
+  -webkit-animation: spin-anti-clockwise 50s linear infinite;
+          animation: spin-anti-clockwise 50s linear infinite; }
+
+#curve-lrg {
+  -webkit-transform-origin: 90% 190%;
+      -ms-transform-origin: 90% 190%;
+          transform-origin: 90% 190%;
+  -webkit-animation: spin-clockwise 39s linear infinite;
+          animation: spin-clockwise 39s linear infinite; }
+
+#cirlce-small {
+  -webkit-transform-origin: 600% -600%;
+      -ms-transform-origin: 600% -600%;
+          transform-origin: 600% -600%;
+  -webkit-animation: spin-anti-clockwise 39s linear infinite;
+          animation: spin-anti-clockwise 39s linear infinite; }
+
+#circle-med {
+  -webkit-transform-origin: 400% -800%;
+      -ms-transform-origin: 400% -800%;
+          transform-origin: 400% -800%;
+  -webkit-animation: spin-clockwise 44s linear infinite;
+          animation: spin-clockwise 44s linear infinite; }
+
+#circle-lrg {
+  -webkit-transform-origin: -350% 200%;
+      -ms-transform-origin: -350% 200%;
+          transform-origin: -350% 200%;
+  -webkit-animation: spin-anti-clockwise 39s linear infinite;
+          animation: spin-anti-clockwise 39s linear infinite; }
+
+#zig-zag {
+  -webkit-transform-origin: 200% 200%;
+      -ms-transform-origin: 200% 200%;
+          transform-origin: 200% 200%;
+  -webkit-animation: spin-clockwise 37s linear infinite;
+          animation: spin-clockwise 37s linear infinite; }
+
+#question-shape {
+  -webkit-transform-origin: -120% -80%;
+      -ms-transform-origin: -120% -80%;
+          transform-origin: -120% -80%;
+  -webkit-animation: spin-anti-clockwise 36s linear infinite;
+          animation: spin-anti-clockwise 36s linear infinite; }
+
+#j-shape {
+  -webkit-transform-origin: -350% -250%;
+      -ms-transform-origin: -350% -250%;
+          transform-origin: -350% -250%;
+  -webkit-animation: spin-clockwise 45s linear infinite;
+          animation: spin-clockwise 45s linear infinite; }
+
+#l-shape {
+  -webkit-transform-origin: 250% 50%;
+      -ms-transform-origin: 250% 50%;
+          transform-origin: 250% 50%;
+  -webkit-animation: spin-anti-clockwise 25s linear infinite;
+          animation: spin-anti-clockwise 25s linear infinite; }
+
+#straight-line {
+  -webkit-transform-origin: 50% 250%;
+      -ms-transform-origin: 50% 250%;
+          transform-origin: 50% 250%;
+  -webkit-animation: spin-clockwise 44s linear infinite;
+          animation: spin-clockwise 44s linear infinite; }
+
+#curve-small-lrg {
+  -webkit-transform-origin: 550% 50%;
+      -ms-transform-origin: 550% 50%;
+          transform-origin: 550% 50%;
+  -webkit-animation: spin-anti-clockwise 44s linear infinite;
+          animation: spin-anti-clockwise 44s linear infinite; }
+
+#curve-lrg-lrg {
+  -webkit-transform-origin: 90% 190%;
+      -ms-transform-origin: 90% 190%;
+          transform-origin: 90% 190%;
+  -webkit-animation: spin-clockwise 39s linear infinite;
+          animation: spin-clockwise 39s linear infinite; }
+
+#cirlce-small-lrg {
+  -webkit-transform-origin: 600% -600%;
+      -ms-transform-origin: 600% -600%;
+          transform-origin: 600% -600%;
+  -webkit-animation: spin-anti-clockwise 35s linear infinite;
+          animation: spin-anti-clockwise 35s linear infinite; }
+
+#circle-med-lrg {
+  -webkit-transform-origin: 400% -800%;
+      -ms-transform-origin: 400% -800%;
+          transform-origin: 400% -800%;
+  -webkit-animation: spin-clockwise 40s linear infinite;
+          animation: spin-clockwise 40s linear infinite; }
+
+#circle-lrg-lrg {
+  -webkit-transform-origin: -350% 200%;
+      -ms-transform-origin: -350% 200%;
+          transform-origin: -350% 200%;
+  -webkit-animation: spin-anti-clockwise 30s linear infinite;
+          animation: spin-anti-clockwise 30s linear infinite; }
+
+#zig-zag-lrg {
+  -webkit-transform-origin: 200% 200%;
+      -ms-transform-origin: 200% 200%;
+          transform-origin: 200% 200%;
+  -webkit-animation: spin-clockwise 30s linear infinite;
+          animation: spin-clockwise 30s linear infinite; }
+
+#question-shape-lrg {
+  -webkit-transform-origin: -120% -80%;
+      -ms-transform-origin: -120% -80%;
+          transform-origin: -120% -80%;
+  -webkit-animation: spin-anti-clockwise 30s linear infinite;
+          animation: spin-anti-clockwise 30s linear infinite; }
+
+#j-shape-lrg {
+  -webkit-transform-origin: -350% -250%;
+      -ms-transform-origin: -350% -250%;
+          transform-origin: -350% -250%;
+  -webkit-animation: spin-clockwise 45s linear infinite;
+          animation: spin-clockwise 45s linear infinite; }
+
+#l-shape-lrg {
+  -webkit-transform-origin: 250% 50%;
+      -ms-transform-origin: 250% 50%;
+          transform-origin: 250% 50%;
+  -webkit-animation: spin-anti-clockwise 25s linear infinite;
+          animation: spin-anti-clockwise 25s linear infinite; }
+
+#straight-line-lrg {
+  -webkit-transform-origin: 50% 250%;
+      -ms-transform-origin: 50% 250%;
+          transform-origin: 50% 250%;
+  -webkit-animation: spin-clockwise 40s linear infinite;
+          animation: spin-clockwise 40s linear infinite; }
